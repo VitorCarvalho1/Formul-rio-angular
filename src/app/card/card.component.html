@@ -1,0 +1,11 @@
+<div *ngFor="let item of listaAlunos" id="flex"> 
+  <div class="card" id="card-flex" style="width: 18rem;">
+    <div class="card-body">
+      <img [src] = item.src class="card-img-top" alt="...">
+      <h5 class="card-title">Nome: {{ item.nome }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Idade:  {{ item.idade }}</h6>
+      <p class="card-text">Cidade: {{ item.cidade }}</p>
+      <h6 class="card-subtitle mb-2 text-muted">Time: {{ item.time }}</h6>
+    </div>
+  </div>
+</div>

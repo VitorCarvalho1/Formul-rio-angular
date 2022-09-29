@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-form {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.image {
+    width: 280px;
+    height: 290px;
+    
+}
+
+form {
+    width: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+    align-content: center;
+}
+
+#password {
+    position: relative;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center;
+    align-items: center;
+    width: 45%;
+    height: 500px;
+    padding-top: 100px;
+    padding-right: 50px;
+    border-radius: 15px;
+    padding-left: 45px;
+    box-shadow: 0 0 10px 5px rgb(236, 234, 234);
+}
+ 
+
+.elements h1 {
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    text-shadow: 4px 4px 4px  grey;
+    width: auto;
+}
+
+.container input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 15px;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+
+.alinhaEye {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#svg-eye {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+.but {
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    width: 100px;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    background-color: #185abc;
+    border: none;
+    color: white;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+}
+
+
+.but:hover {
+    transform: scale(1.1);
+}
+
+.button-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+
+
+
+
+
+
+
+

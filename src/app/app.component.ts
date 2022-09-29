@@ -8,11 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'primeiro_projeto';
 
-  mostrarSenha = false
-
-  mostrarPassword(){
-
-    this.mostrarSenha = !this.mostrarSenha
-  }
+  
 
 };
