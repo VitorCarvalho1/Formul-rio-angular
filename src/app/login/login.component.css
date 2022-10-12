@@ -22,14 +22,8 @@
   }
 }
 
-@media (max-width: 872px){
-  .image {
-    display: none;
-  }
-  .elements {
-    width: 70%;
-  }
-}
+
+
 
 main{
     display: flex;
