@@ -2,8 +2,33 @@
 
 
 * {
-    margin: 0;  
+    margin: 0;
     box-sizing: border-box;
+}
+
+@media(min-width: 864px) and (max-width: 1152px) {
+  .container {
+    display: flex;
+    gap: 3rem;
+    margin-left: 80px;
+  }
+
+  .image-form{
+    margin-top: 100px;
+  }
+
+  .elements {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 872px){
+  .image {
+    display: none;
+  }
+  .elements {
+    width: 70%;
+  }
 }
 
 main{
@@ -23,7 +48,7 @@ main{
 .image {
     width: 280px;
     height: 290px;
-    
+
 }
 
 form {
@@ -56,7 +81,7 @@ form {
     padding-left: 45px;
     box-shadow: 0 0 10px 5px rgb(236, 234, 234);
 }
- 
+
 
 .elements h1 {
     margin-bottom: 10px;
@@ -114,6 +139,8 @@ form {
     justify-content: center;
     align-items: center;
 };
+
+
 
 
 
